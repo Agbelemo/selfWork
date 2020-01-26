@@ -1,3 +1,12 @@
+.containerOne{
+    margin-left: -25em;
+}
+
+.containerTwo{
+    margin-left: 25em;
+    margin-top: -30em;
+}
+
 .text{
     width: 4.5vw;
     height: 4.5vw;
@@ -110,4 +119,102 @@
     content: '';
     border-radius: 100px;
     margin-left: -30px;
+}
+
+
+.emoji{
+    width: 10.5vw;
+    height: 10.5vw;
+    background: yellow;
+    position: relative;
+    border-radius: 90px;
+    margin-left: -30px;
+}
+
+.emoji::before{
+    width: 6vw;
+    height: 6vw;
+    position: absolute;
+    content: '';
+    background: white;
+    transform: rotate(45deg);
+    margin-top: 40px;
+    margin-left: 7em;
+    margin-bottom: 50px;
+}
+
+.emoji::after{
+    width: 1.5vw;
+    height: 1.5vw;
+    position: absolute;
+    content: '';
+    background: brown;
+    border-radius: 30px;
+    margin-left: 80px;
+    margin-top: 1.5em;
+}
+
+.books{
+    margin-top: -13em;
+}
+
+.book{
+    width: 14vw;
+    height: 6.3vw;
+    background: red;
+    position: relative;
+    border-radius: 20px 5px 5px 20px;
+    margin-left: 10em;
+    margin-top: -90px;
+}
+
+.book::before{
+    width: 8.9vw;
+    height: 5.5vw;
+    background: white;
+    position: absolute;
+    border-radius: 30px 0 0px 30px;
+    content: '';
+    margin-left: 4.7em;
+    margin-top: 5.5px;
+}
+
+.bookTwo{
+    width: 14vw;
+    height: 6.3vw;
+    background: green;
+    position: relative;
+    border-radius: 20px 5px 5px 20px;
+    margin-left: 10em;
+}
+
+.bookTwo::before{
+    width: 8.9vw;
+    height: 5.5vw;
+    background: white;
+    position: absolute;
+    border-radius: 30px 0 0px 30px;
+    content: '';
+    margin-left: 4.7em;
+    margin-top: 5.5px;
+}
+
+.bookThree{
+    width: 14vw;
+    height: 6.3vw;
+    background: orange;
+    position: relative;
+    border-radius: 20px 5px 5px 20px;
+    margin-left: 10em;
+}
+
+.bookThree::before{
+    width: 8.9vw;
+    height: 5.5vw;
+    background: white;
+    position: absolute;
+    border-radius: 30px 0 0px 30px;
+    content: '';
+    margin-left: 4.7em;
+    margin-top: 5.5px;
 }
